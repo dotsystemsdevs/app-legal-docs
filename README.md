@@ -6,12 +6,18 @@ Legal documents for Dot Systems mobile applications.
 
 | App | Privacy Policy | Terms of Service |
 |-----|---------------|------------------|
+| Lotty | [Privacy](./lotty/privacy.md) | [Terms](./lotty/terms.md) |
 | SpinCheck | [Privacy](./spinncheck/privacy.md) | [Terms](./spinncheck/terms.md) |
 
 ## Hosted URLs
 
 Documents are hosted via GitHub Pages:
 
+### Lotty
+- **Privacy Policy**: https://dotsystemsdevs.github.io/app-legal-docs/lotty/privacy.html
+- **Terms of Service**: https://dotsystemsdevs.github.io/app-legal-docs/lotty/terms.html
+
+### SpinCheck
 - **Privacy Policy**: https://dotsystemsdevs.github.io/app-legal-docs/spinncheck/privacy.html
 - **Terms of Service**: https://dotsystemsdevs.github.io/app-legal-docs/spinncheck/terms.html
 
