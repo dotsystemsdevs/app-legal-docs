@@ -1,12 +1,12 @@
 # Privacy Policy
 
-**SpinCheck - AI Bike Diagnostic Tool**
+**Spoke - AI Bike Diagnostic Tool**
 
 *Last updated: January 2026*
 
 ## Overview
 
-SpinCheck ("we", "our", or "the app") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information.
+Spoke ("we", "our", or "the app") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information.
 
 ## Information We Collect
 
@@ -46,7 +46,7 @@ You have the right to:
 
 ## Children's Privacy
 
-SpinCheck is not intended for children under 13. We do not knowingly collect data from children.
+Spoke is not intended for children under 13. We do not knowingly collect data from children.
 
 ## Changes to This Policy
 

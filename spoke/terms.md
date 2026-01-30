@@ -1,16 +1,16 @@
 # Terms of Service
 
-**SpinCheck - AI Bike Diagnostic Tool**
+**Spoke - AI Bike Diagnostic Tool**
 
 *Last updated: January 2026*
 
 ## Acceptance of Terms
 
-By downloading, installing, or using SpinCheck ("the app"), you agree to these Terms of Service. If you do not agree, do not use the app.
+By downloading, installing, or using Spoke ("the app"), you agree to these Terms of Service. If you do not agree, do not use the app.
 
 ## Description of Service
 
-SpinCheck is an AI-powered bicycle diagnostic tool that:
+Spoke is an AI-powered bicycle diagnostic tool that:
 - Records sounds from your bicycle
 - Analyzes audio using machine learning
 - Provides potential diagnoses and repair suggestions
@@ -18,7 +18,7 @@ SpinCheck is an AI-powered bicycle diagnostic tool that:
 ## Important Disclaimers
 
 ### Not Professional Advice
-- SpinCheck provides **suggestions only**, not professional mechanical advice
+- Spoke provides **suggestions only**, not professional mechanical advice
 - Always consult a qualified bicycle mechanic for safety-critical repairs
 - We are not liable for any damage resulting from following app suggestions
 
@@ -37,9 +37,9 @@ You agree to:
 
 ## Intellectual Property
 
-- SpinCheck and its content are owned by Dot Systems
+- Spoke and its content are owned by Dot Systems
 - You may not copy, modify, or distribute app content
-- The SpinCheck name and logo are trademarks of Dot Systems
+- The Spoke name and logo are trademarks of Dot Systems
 
 ## Limitation of Liability
 

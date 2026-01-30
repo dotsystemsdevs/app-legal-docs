@@ -6,14 +6,14 @@ Legal documents for Dot Systems mobile applications.
 
 | App | Privacy Policy | Terms of Service |
 |-----|---------------|------------------|
-| SpinCheck | [Privacy](./spinncheck/privacy.md) | [Terms](./spinncheck/terms.md) |
+| Spoke | [Privacy](./spoke/privacy.md) | [Terms](./spoke/terms.md) |
 
 ## Hosted URLs
 
 Documents are hosted via GitHub Pages:
 
-- **Privacy Policy**: https://dotsystemsdevs.github.io/app-legal-docs/spinncheck/privacy.html
-- **Terms of Service**: https://dotsystemsdevs.github.io/app-legal-docs/spinncheck/terms.html
+- **Privacy Policy**: https://dotsystemsdevs.github.io/app-legal-docs/spoke/privacy.html
+- **Terms of Service**: https://dotsystemsdevs.github.io/app-legal-docs/spoke/terms.html
 
 ## Setup GitHub Pages
 
