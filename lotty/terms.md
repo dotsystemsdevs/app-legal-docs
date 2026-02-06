@@ -30,4 +30,4 @@ All data is stored locally on your device.
 
 For questions about these terms:
 - Developer: Dot Systems
-- Email: support@dotsystems.se
+- Email: dot.systems@proton.me

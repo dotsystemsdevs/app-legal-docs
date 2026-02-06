@@ -31,4 +31,4 @@ Lotty does not knowingly collect any data from children. As the app does not col
 If you have any questions about this Privacy Policy, you can contact:
 
 - Developer: Dot Systems
-- Email: support@dotsystems.se
+- Email: dot.systems@proton.me
