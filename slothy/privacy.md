@@ -2,7 +2,7 @@
 
 **Slothy – Today & Tomorrow Tasks**
 
-*Last updated: February 2026*
+*Last updated: February 10, 2026*
 
 ## Overview
 
