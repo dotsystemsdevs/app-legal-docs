@@ -2,7 +2,7 @@
 
 **Mulligan: The Real Scorecard**
 
-Effective Date: February 1, 2026
+Effective Date: February 13, 2026 (v1.1.1)
 
 ---
 
@@ -18,12 +18,17 @@ This Privacy Policy describes how Mulligan ("the App", "we", "us", or "our") han
 
 The App stores the following data on your device:
 
-- Round statistics including lost balls, found balls, and fore calls
+- Round statistics including lost balls, found balls, and mulligans
 - Historical round data with timestamps
 - User preferences such as theme settings and haptic feedback preferences
 - Custom background image references (optional, user-selected)
+- Notification permission and scheduling preferences
 
-### 2.2 Photo Library Access
+### 2.2 Notifications
+
+The App may request permission to send local push notifications. These notifications are scheduled entirely on your device to remind you to review your round statistics. No notification data is transmitted to external servers. You can disable notifications at any time through your device's system settings.
+
+### 2.3 Photo Library Access
 
 The App may request access to your device's photo library for the sole purpose of allowing you to select a custom background image. This feature is optional and requires your explicit permission.
 
@@ -33,7 +38,7 @@ The App may request access to your device's photo library for the sole purpose o
 - Images are never shared with us or any third parties
 - You can remove your custom background at any time through the Settings screen
 
-### 2.3 Data Not Collected
+### 2.4 Data Not Collected
 
 The App does not collect, transmit, or store any of the following:
 
@@ -118,6 +123,7 @@ For questions regarding this Privacy Policy, contact:
 - No personal information is collected or transmitted
 - Photo library access is optional and used only for custom backgrounds
 - Selected images remain on your device and are never uploaded
+- Notifications are local only and never transmitted externally
 - No data is shared with third parties
 - Users have complete control over their data
 

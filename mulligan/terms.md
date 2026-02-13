@@ -2,7 +2,7 @@
 
 **Mulligan: The Real Scorecard**
 
-Last Updated: February 1, 2026
+Last Updated: February 13, 2026 (v1.1.1)
 
 ---
 
