@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Golf Excuse Generator</title>
+    <title>Privacy Policy - Bogey Blamer</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -15,7 +15,7 @@
             max-width: 800px;
             margin: 0 auto;
         }
-        h1 { color: #E8B923; margin-bottom: 8px; font-size: 28px; }
+        h1 { color: #5A8E70; margin-bottom: 8px; font-size: 28px; }
         h2 { color: #fafafa; margin-top: 32px; margin-bottom: 12px; font-size: 20px; }
         p { margin-bottom: 16px; color: #a1a1aa; }
         ul { margin-left: 24px; margin-bottom: 16px; color: #a1a1aa; }
@@ -28,23 +28,33 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="subtitle">Golf Excuse Generator<br>Last updated: February 2026</p>
+    <p class="subtitle">Bogey Blamer<br>Last updated: March 2026</p>
 
     <h2>Overview</h2>
-    <p>Golf Excuse Generator respects your privacy and is designed to work without collecting personal data.</p>
+    <p>Bogey Blamer respects your privacy. The app is designed to collect as little data as possible while providing community features like voting and a leaderboard.</p>
 
-    <h2>1. Data Collection</h2>
-    <p>Golf Excuse Generator does not collect, store, process, or share any personal data.</p>
-    <p>Any local preferences (such as whether you have been asked to rate the app) are stored only on your device and are never transmitted.</p>
+    <h2>1. Data We Collect</h2>
+    <p><strong>Local preferences</strong> (haptics, notification settings, review prompt state) are stored only on your device and are never transmitted.</p>
+    <p><strong>Anonymous analytics:</strong> We use <strong>TelemetryDeck</strong> to collect anonymous usage signals (e.g. app opened, excuse generated, category changed). TelemetryDeck hashes your anonymous device identifier so it cannot be traced back to you. No personal data, IP addresses, or device identifiers are stored. See <a href="https://telemetrydeck.com/privacy" style="color:#5A8E70;">TelemetryDeck's privacy policy</a>.</p>
+    <p><strong>Community voting:</strong> When you vote on an excuse, that vote is sent to our backend (<strong>Supabase</strong>) and stored anonymously. No user account, name, email, or device identifier is attached to your vote.</p>
 
-    <h2>2. No Servers or Third Parties</h2>
-    <p>The app does not use any servers, cloud services, or third-party analytics or advertising networks for tracking. Excuses are chosen at random on your device.</p>
+    <h2>2. Third-Party Services</h2>
+    <ul>
+        <li><strong>Supabase</strong> — hosts the anonymous leaderboard and vote data. No personal data is stored.</li>
+        <li><strong>TelemetryDeck</strong> — privacy-first analytics. All user identifiers are hashed and cannot be reversed.</li>
+    </ul>
 
-    <h2>3. Legal Basis (GDPR)</h2>
-    <p>Since no personal data is collected or processed, the General Data Protection Regulation (GDPR) does not apply beyond local storage on your device.</p>
+    <h2>3. Notifications</h2>
+    <p>If you enable notifications, the app schedules local notifications on your device (daily excuse, re-engagement reminders). These are entirely local and do not involve any server.</p>
 
-    <h2>4. Children's Privacy</h2>
-    <p>The app does not knowingly collect any data from children. No personal information from users of any age is stored or processed.</p>
+    <h2>4. Legal Basis (GDPR)</h2>
+    <p>We rely on <strong>legitimate interest</strong> for anonymous analytics (TelemetryDeck) as no personal data is processed. Local storage on your device falls outside GDPR scope. Community votes are anonymous and not linked to any individual.</p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>The app does not knowingly collect any personal data from children or any other users.</p>
+
+    <h2>6. Changes</h2>
+    <p>We may update this policy from time to time. The latest version will always be available at this URL.</p>
 
     <div class="contact">
         <h2 style="margin-top: 0;">Contact Us</h2>
