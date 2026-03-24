@@ -1,39 +1,40 @@
 # App Legal Documents
 
-Legal documents for Dot Systems mobile applications.
+Privacy policies and terms of service for all Dot Systems apps, hosted via GitHub Pages.
 
-## Apps
+---
 
-| App     | Privacy Policy           | Terms of Service        |
-|---------|--------------------------|-------------------------|
-| Lotty   | [Privacy](./lotty/privacy.md)   | [Terms](./lotty/terms.md)   |
-| Mulligan| [Privacy](./mulligan/privacy.md)| [Terms](./mulligan/terms.md)|
-| Slothy  | [Privacy](./slothy/privacy.md)  | [Terms](./slothy/terms.md)  |
-| Spoke   | [Privacy](./spoke/privacy.md)  | [Terms](./spoke/terms.md)  |
+## Active Apps
 
-## Hosted URLs
+| App | Folder | Privacy | Terms |
+|-----|--------|---------|-------|
+| Mulligan | `mulligan/` | [Privacy](./mulligan/privacy.md) | [Terms](./mulligan/terms.md) |
+| Bogey Blamer | `app-golfexcuse/` | [Privacy](./app-golfexcuse/privacy.md) | [Terms](./app-golfexcuse/terms.md) |
+| Slothy | `slothy/` | [Privacy](./slothy/privacy.md) | [Terms](./slothy/terms.md) |
+| Sidewise | `lotty/` | [Privacy](./lotty/privacy.md) | [Terms](./lotty/terms.md) |
 
-Documents are hosted via GitHub Pages:
+---
 
-- **Lotty – Privacy**: https://dotsystemsdevs.github.io/app-legal-docs/lotty/privacy.html  
-- **Lotty – Terms**: https://dotsystemsdevs.github.io/app-legal-docs/lotty/terms.html  
-- **Mulligan – Privacy**: https://dotsystemsdevs.github.io/app-legal-docs/mulligan/privacy.html  
-- **Mulligan – Terms**: https://dotsystemsdevs.github.io/app-legal-docs/mulligan/terms.html  
-- **Slothy – Privacy**: https://dotsystemsdevs.github.io/app-legal-docs/slothy/privacy.html  
-- **Slothy – Terms**: https://dotsystemsdevs.github.io/app-legal-docs/slothy/terms.html  
-- **Spoke – Privacy**: https://dotsystemsdevs.github.io/app-legal-docs/spoke/privacy.html  
-- **Spoke – Terms**: https://dotsystemsdevs.github.io/app-legal-docs/spoke/terms.html  
+## Live URLs
 
-## Setup GitHub Pages
+**Mulligan**
+- Privacy: `https://dotsystemsdevs.github.io/app-legal-docs/mulligan/privacy.md`
+- Terms: `https://dotsystemsdevs.github.io/app-legal-docs/mulligan/terms.md`
 
-1. Go to repository Settings  
-2. Navigate to Pages  
-3. Set source to "Deploy from a branch"  
-4. Select `main` branch and `/ (root)` folder  
-5. Save  
+**Bogey Blamer**
+- Privacy: https://dotsystemsdevs.github.io/app-legal-docs/app-golfexcuse/privacy.html
+- Terms: https://dotsystemsdevs.github.io/app-legal-docs/app-golfexcuse/terms.html
+
+**Slothy**
+- Privacy: https://dotsystemsdevs.github.io/app-legal-docs/slothy/privacy.html
+- Terms: https://dotsystemsdevs.github.io/app-legal-docs/slothy/terms.html
+
+**Sidewise**
+- Privacy: https://dotsystemsdevs.github.io/app-legal-docs/lotty/privacy.html
+- Terms: https://dotsystemsdevs.github.io/app-legal-docs/lotty/terms.html
+
+---
 
 ## Contact
 
-**Email**: support@dotsystems.se  
-
-**Developer**: Dot Systems  
+**Dot Systems** — support@dotsystems.se
