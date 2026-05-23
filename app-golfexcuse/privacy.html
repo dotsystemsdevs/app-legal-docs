@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Bogey Blamer</title>
+    <title>Privacy Policy - Excuse Caddie</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -15,7 +15,7 @@
             max-width: 800px;
             margin: 0 auto;
         }
-        h1 { color: #5A8E70; margin-bottom: 8px; font-size: 28px; }
+        h1 { color: #E8B923; margin-bottom: 8px; font-size: 28px; }
         h2 { color: #fafafa; margin-top: 32px; margin-bottom: 12px; font-size: 20px; }
         p { margin-bottom: 16px; color: #a1a1aa; }
         ul { margin-left: 24px; margin-bottom: 16px; color: #a1a1aa; }
@@ -28,37 +28,47 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="subtitle">Bogey Blamer<br>Last updated: March 2026</p>
+    <p class="subtitle">Excuse Caddie<br>Last updated: May 2026</p>
 
     <h2>Overview</h2>
-    <p>Bogey Blamer respects your privacy. The app is designed to collect as little data as possible while providing community features like voting and a leaderboard.</p>
+    <p>Excuse Caddie is designed to collect as little data as possible. We do not collect names, emails, accounts, or any personally identifiable information. What we do send is described below.</p>
 
-    <h2>1. Data We Collect</h2>
-    <p><strong>Local preferences</strong> (haptics, notification settings, review prompt state) are stored only on your device and are never transmitted.</p>
-    <p><strong>Anonymous analytics:</strong> We use <strong>TelemetryDeck</strong> to collect anonymous usage signals (e.g. app opened, excuse generated, category changed). TelemetryDeck hashes your anonymous device identifier so it cannot be traced back to you. No personal data, IP addresses, or device identifiers are stored. See <a href="https://telemetrydeck.com/privacy" style="color:#5A8E70;">TelemetryDeck's privacy policy</a>.</p>
-    <p><strong>Community voting:</strong> When you vote on an excuse, that vote is sent to our backend (<strong>Supabase</strong>) and stored anonymously. No user account, name, email, or device identifier is attached to your vote.</p>
+    <h2>1. Anonymous device identifier</h2>
+    <p>The app generates a random UUID the first time you open it and stores it locally on your device. This identifier is not linked to your name, email, Apple ID, or Google account.</p>
+    <p>The UUID is sent with each upvote or downvote you cast on an excuse, so that one device counts as one vote per excuse. We do not use it for tracking across sessions or for advertising.</p>
 
-    <h2>2. Third-Party Services</h2>
+    <h2>2. Anonymous usage counters</h2>
+    <p>When you tap "Mulligan" to generate an excuse, the app sends a request to our server to increment a global counter. This request contains no personal data and no device identifier; it is a simple counter bump used to show the "alibis on the card" number in the app.</p>
+
+    <h2>3. Notifications (optional, off by default)</h2>
+    <p>If you turn on notifications in the app footer, the app schedules two local reminders per week (Thursday evening and Sunday morning) with a random excuse from the bundled list. These notifications are scheduled and fired entirely on your device by the operating system. No push tokens are registered with any server, and no notification data leaves your device.</p>
+    <p>You can turn notifications off at any time from the same toggle, or from your device system settings.</p>
+
+    <h2>4. Locally stored preferences</h2>
+    <p>The app stores a small number of preferences on your device only:</p>
     <ul>
-        <li><strong>Supabase</strong> — hosts the anonymous leaderboard and vote data. No personal data is stored.</li>
-        <li><strong>TelemetryDeck</strong> — privacy-first analytics. All user identifiers are hashed and cannot be reversed.</li>
+        <li>The anonymous UUID described above.</li>
+        <li>Whether you have enabled weekly notifications.</li>
+        <li>A counter of how many times the "Mulligan" button has been pressed, used to time the optional in-app rating prompt.</li>
+        <li>A timestamp of when the rating prompt was last shown, so it only appears once per install.</li>
     </ul>
+    <p>This data never leaves your device. Uninstalling the app removes it.</p>
 
-    <h2>3. Notifications</h2>
-    <p>If you enable notifications, the app schedules local notifications on your device (daily excuse, re-engagement reminders). These are entirely local and do not involve any server.</p>
+    <h2>5. No third-party tracking or ads</h2>
+    <p>The app does not use third-party analytics SDKs, advertising networks, social tracking pixels, or cross-app identifiers. The only network requests the app makes go to our own backend at excusecaddie.xyz and only for the purposes listed above.</p>
 
-    <h2>4. Legal Basis (GDPR)</h2>
-    <p>We rely on <strong>legitimate interest</strong> for anonymous analytics (TelemetryDeck) as no personal data is processed. Local storage on your device falls outside GDPR scope. Community votes are anonymous and not linked to any individual.</p>
+    <h2>6. Children's privacy</h2>
+    <p>The app does not knowingly collect any data from children. No personal information from users of any age is stored or processed.</p>
 
-    <h2>5. Children's Privacy</h2>
-    <p>The app does not knowingly collect any personal data from children or any other users.</p>
+    <h2>7. Legal basis (GDPR)</h2>
+    <p>The anonymous UUID and vote counter are processed on the basis of legitimate interest in providing the voting feature and showing accurate counters. No identifiable personal data is processed. If you are in the EU and want your UUID and votes deleted, see the contact section below.</p>
 
-    <h2>6. Changes</h2>
-    <p>We may update this policy from time to time. The latest version will always be available at this URL.</p>
+    <h2>8. Changes to this policy</h2>
+    <p>If we change how the app handles data, this page is updated and the "Last updated" date at the top is bumped.</p>
 
     <div class="contact">
         <h2 style="margin-top: 0;">Contact Us</h2>
-        <p>For privacy questions or concerns:</p>
+        <p>For privacy questions or to request deletion of your anonymous data:</p>
         <p><strong>Email</strong>: support@dotsystems.se</p>
         <p><strong>Developer</strong>: Dot Systems</p>
     </div>

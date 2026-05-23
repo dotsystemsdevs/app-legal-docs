@@ -1,117 +1,79 @@
 # Privacy Policy
 
-**Golf Excuse Generator**
+**Excuse Caddie**
 
-Effective Date: February 12, 2026
-
----
-
-## 1. Introduction
-
-This Privacy Policy describes how Golf Excuse Generator ("the App", "we", "us", or "our") handles information when you use our mobile application. By using the App, you agree to the practices described in this policy.
+Last updated: May 2026
 
 ---
 
-## 2. Information Collection
+## Overview
 
-### 2.1 Data Stored Locally
-
-The App may store the following data on your device only:
-
-- A flag indicating whether you have been asked to rate the app (so we do not ask repeatedly)
-- No excuses, preferences, or other content are stored permanently
-
-### 2.2 Clipboard
-
-When you tap "Copy" on an excuse, the App copies that text to your device's clipboard. The App does not read, store, or transmit clipboard content. Copying is entirely under your control.
-
-### 2.3 Data Not Collected
-
-The App does not collect, transmit, or store any of the following:
-
-- Personal identification information
-- Location data
-- Device identifiers
-- Usage analytics
-- Advertising identifiers
-- Any text you generate or copy
+Excuse Caddie is designed to collect as little data as possible. We do not collect names, emails, accounts, or any personally identifiable information. What we do send is described below.
 
 ---
 
-## 3. Data Storage and Security
+## 1. Anonymous device identifier
 
-Any local data (such as the review-prompt flag) is stored on your device using the operating system's storage. No data is transmitted to external servers. We do not have access to any information on your device.
+The app generates a random UUID the first time you open it and stores it locally on your device. This identifier is not linked to your name, email, Apple ID, or Google account.
 
----
-
-## 4. Third-Party Services
-
-The App may use:
-
-- **App store review** (iOS/Android): If you choose to rate the app, the rating is submitted to the app store only; we do not receive personal data from this.
-- **Software updates** (Expo Updates): If the App checks for updates, it may communicate with update servers to fetch new versions; no personal data is sent.
-
-We do not integrate with third-party analytics or advertising networks.
+The UUID is sent with each upvote or downvote you cast on an excuse, so that one device counts as one vote per excuse. We do not use it for tracking across sessions or for advertising.
 
 ---
 
-## 5. Data Sharing
+## 2. Anonymous usage counters
 
-We do not sell, trade, rent, or otherwise share any user data with third parties. We do not collect or transmit user data.
-
----
-
-## 6. Data Retention
-
-Any local data remains on your device until you uninstall the App. Uninstalling the App removes all associated local data.
+When you tap "Mulligan" to generate an excuse, the app sends a request to our server to increment a global counter. This request contains no personal data and no device identifier. It is a simple counter bump used to show the "alibis on the card" number in the app.
 
 ---
 
-## 7. Children's Privacy
+## 3. Notifications (optional, off by default)
 
-The App does not collect personal information from any user, including children under 13. No account is required. The App is suitable for users of all ages.
+If you turn on notifications in the app footer, the app schedules two local reminders per week (Thursday evening and Sunday morning) with a random excuse from the bundled list. These notifications are scheduled and fired entirely on your device by the operating system. No push tokens are registered with any server, and no notification data leaves your device.
 
----
-
-## 8. User Rights
-
-You have full control:
-
-- No personal data is collected, so there is nothing for us to return or delete
-- You can uninstall the App at any time to remove any local data
+You can turn notifications off at any time from the same toggle, or from your device system settings.
 
 ---
 
-## 9. International Users
+## 4. Locally stored preferences
 
-For users in the European Economic Area: We do not collect or process personal data; GDPR data processing requirements do not apply.
+The app stores a small number of preferences on your device only:
 
-For users in California: We do not collect or sell personal information as defined under the California Consumer Privacy Act.
+- The anonymous UUID described above.
+- Whether you have enabled weekly notifications.
+- A counter of how many times the "Mulligan" button has been pressed, used to time the optional in-app rating prompt.
+- A timestamp of when the rating prompt was last shown, so it only appears once per install.
+
+This data never leaves your device. Uninstalling the app removes it.
 
 ---
 
-## 10. Changes to This Policy
+## 5. No third-party tracking or ads
 
-We may update this Privacy Policy periodically. The Effective Date above will be revised when we do. Continued use of the App after changes constitutes acceptance of the updated policy.
+The app does not use third-party analytics SDKs, advertising networks, social tracking pixels, or cross-app identifiers. The only network requests the app makes go to our own backend at excusecaddie.xyz and only for the purposes listed above.
 
 ---
 
-## 11. Contact
+## 6. Children's privacy
 
-For questions about this Privacy Policy:
+The app does not knowingly collect any data from children. No personal information from users of any age is stored or processed.
 
-**Developer:** Dot Systems
+---
+
+## 7. Legal basis (GDPR)
+
+The anonymous UUID and vote counter are processed on the basis of legitimate interest in providing the voting feature and showing accurate counters. No identifiable personal data is processed. If you are in the EU and want your UUID and votes deleted, see the contact section below.
+
+---
+
+## 8. Changes to this policy
+
+If we change how the app handles data, this page is updated and the "Last updated" date at the top is bumped.
+
+---
+
+## Contact
+
+For privacy questions or to request deletion of your anonymous data:
+
 **Email:** support@dotsystems.se
-
----
-
-## 12. Summary
-
-- The App does not collect or transmit personal data
-- Any local data (e.g. review prompt flag) stays on your device only
-- Clipboard use is under your control; we do not read or store clipboard content
-- No data is shared with third parties
-
----
-
-This policy is intended to comply with Google Play Store requirements, the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and the Children's Online Privacy Protection Act (COPPA).
+**Developer:** Dot Systems
