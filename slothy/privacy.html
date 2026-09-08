@@ -31,7 +31,7 @@
 <body>
     <h1>Privacy Policy</h1>
     <p><strong>Slothy &ndash; Today &amp; Tomorrow Tasks</strong></p>
-    <p class="subtitle">Last updated: August 13, 2026</p>
+    <p class="subtitle">Last updated: September 8, 2026</p>
 
     <h2>Overview</h2>
     <p>Slothy (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;the app&rdquo;) is committed to protecting your privacy. This policy explains how we handle your information.</p>
@@ -48,25 +48,25 @@
     <h2>Anonymous Analytics</h2>
     <p>We use <strong>Aptabase</strong>, a privacy-first analytics service, to understand how the app is used in aggregate. This helps us improve Slothy.</p>
 
-    <p><strong>What is tracked (anonymously):</strong></p>
+    <p><strong>What is tracked:</strong></p>
     <ul>
         <li>App opened</li>
         <li>Device language</li>
         <li>Onboarding started and completed</li>
         <li>Task created, completed, moved, or deleted (event only &mdash; no task content)</li>
         <li>Reminder enabled or disabled</li>
+        <li>An <strong>installation ID</strong>: sixteen random bytes generated on first run and stored on your device. It is not derived from your hardware or from anything about you, and it is deleted when you uninstall the app. Without it we cannot tell whether the same phone came back the next day, which is the only way to know whether the app is worth keeping.</li>
     </ul>
 
     <p><strong>What is NOT tracked:</strong></p>
     <ul>
         <li>No personal data (name, email, phone, etc.)</li>
         <li>No IP addresses (Aptabase does not store IP addresses)</li>
-        <li>No device identifiers</li>
+        <li>No hardware identifiers such as Android ID, IMEI, MAC address or advertising ID</li>
         <li>No task titles or content</li>
-        <li>No advertising IDs</li>
     </ul>
 
-    <p>All analytics data is fully anonymous. We cannot identify individual users. Aptabase is GDPR-compliant, hosts data in the European Union, and does not require cookie consent. You can turn analytics off at any time in Settings &rarr; Anonymous usage stats. Learn more at <a href="https://aptabase.com">aptabase.com</a>.</p>
+    <p>Analytics data carries no name, email or hardware identifier, so we cannot work out who you are from it. Aptabase is GDPR-compliant, hosts data in the European Union, and does not require cookie consent. You can turn analytics off at any time in Settings &rarr; Anonymous usage stats. When it is off nothing is sent, including the installation ID. Learn more at <a href="https://aptabase.com">aptabase.com</a>.</p>
 
     <h2>Where Your Data Is Stored</h2>
     <ul>
@@ -87,24 +87,27 @@
     <h2>Third Parties</h2>
     <ul>
         <li><strong>Aptabase</strong> (analytics) &mdash; privacy-first, EU-hosted, no personal data collected. <a href="https://aptabase.com/legal/privacy">Privacy policy</a></li>
-        <li><strong>RevenueCat</strong> (purchases) &mdash; manages your purchase and subscription status. It never receives your tasks. <a href="https://www.revenuecat.com/privacy">Privacy policy</a></li>
+        <li><strong>RevenueCat</strong> (purchases) &mdash; manages your purchase and subscription status. Slothy has no sign-up, so RevenueCat assigns an anonymous app user ID to the install and receives your purchase history and basic device information. It never receives your tasks. <a href="https://www.revenuecat.com/privacy">Privacy policy</a></li>
         <li><strong>Apple App Store / Google Play</strong> &mdash; process the payment itself. We never see your payment details</li>
         <li>We do not use advertising SDKs</li>
         <li>We do not sell or share your data</li>
     </ul>
 
+    <h2>Identifiers</h2>
+    <p>Two identifiers leave the device: the analytics installation ID described above, and the anonymous app user ID that RevenueCat assigns to the install. Neither is tied to your name, your email or your hardware, and both disappear when you uninstall the app. This is what our Google Play Data safety declaration lists as &ldquo;Device or other IDs&rdquo;, collected for app functionality and analytics, and never shared with other companies for their own purposes.</p>
+
     <h2 id="data-deletion">Data Deletion</h2>
     <p>Slothy keeps your tasks on your device only, so deleting them is immediate and entirely in your hands:</p>
     <ul>
         <li><strong>Your tasks, statistics and settings:</strong> open Slothy and go to Settings &rarr; Reset app, or uninstall Slothy. Both remove everything from the device straight away. There is no copy on any server, so nothing is left behind and no retention period applies.</li>
-        <li><strong>Anonymous usage statistics:</strong> turn them off at any time in Settings &rarr; Anonymous usage stats. Nothing further is sent. Data already collected contains no identifier of any kind, so it cannot be traced back to you or to your device. To ask us to delete it anyway, email <a href="mailto:dot.systems@proton.me">dot.systems@proton.me</a> and we will handle the request within 30 days.</li>
+        <li><strong>Anonymous usage statistics:</strong> turn them off at any time in Settings &rarr; Anonymous usage stats. Nothing further is sent, including the installation ID. Data already collected carries no name, email or hardware identifier, so we cannot work out who you are from it. To ask us to delete the events tied to your installation ID, email <a href="mailto:dot.systems@proton.me">dot.systems@proton.me</a> and we will handle the request within 30 days.</li>
         <li><strong>Purchases:</strong> your purchase is held by Apple or Google against your store account, not by us. Deleting it is done through the store, and removing it would also remove your access to what you paid for.</li>
     </ul>
 
     <h2>Your Rights</h2>
     <ul>
         <li>You can delete all local data by uninstalling the app</li>
-        <li>Analytics data is anonymous and cannot be linked to you</li>
+        <li>Analytics data carries no name, email or hardware identifier, so it cannot be linked to you</li>
         <li>For questions about this policy, contact us (see below)</li>
     </ul>
 
@@ -117,7 +120,7 @@
     <hr>
 
     <div class="contact">
-        <p><strong>Email:</strong> support@dotsystems.se</p>
+        <p><strong>Email:</strong> <a href="mailto:dot.systems@proton.me">dot.systems@proton.me</a></p>
         <p><strong>Developer:</strong> Dot Systems</p>
     </div>
 </body>
