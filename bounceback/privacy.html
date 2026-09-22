@@ -39,7 +39,7 @@
     <p>Bounceback (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;the app&rdquo;) is a habit tracker with no account and no sign-up. This policy explains what stays on your phone and the little that leaves it.</p>
 
     <h2>Information We Collect</h2>
-    <p><strong>We do not collect personal data, and we do not run analytics.</strong></p>
+    <p><strong>We do not collect personal data.</strong> There is no sign-up, no email and no login.</p>
     <p>Everything you enter stays on your device:</p>
     <ul>
         <li><strong>Habits</strong>: names, icons, colours, schedules, the Full and Minimum versions, reminder times</li>
@@ -48,12 +48,34 @@
     </ul>
     <p>We never have access to your habits, your history or your notes.</p>
 
+    <h2>Anonymous Usage Statistics</h2>
+    <p>We use <strong>PostHog</strong>, hosted in the European Union, to count how the app is used in aggregate. This tells us whether people get through the first habit, whether they come back, and whether the upgrade screen appears at a sensible moment.</p>
+    <p><strong>What is sent:</strong></p>
+    <ul>
+        <li>App opened, and one &ldquo;active today&rdquo; event per day</li>
+        <li>Onboarding finished</li>
+        <li>A habit was created (the number of habits, never the name)</li>
+        <li>A day was checked off (Full or Minimum, and whether it followed a miss)</li>
+        <li>The upgrade screen was shown, and a purchase was made (the plan, never the price you paid)</li>
+        <li>The rating prompt was requested, and a backup was exported</li>
+        <li>With each event: the app version, the week the app was first opened (an ISO week such as 2026-W39, never a date), your phone&rsquo;s region setting (a country code, never a location) and the number of active habits</li>
+    </ul>
+    <p><strong>What is NOT sent:</strong></p>
+    <ul>
+        <li>No habit names, notes or anything you type</li>
+        <li>No stored identifier. The analytics library keeps its id in memory for one launch only and never writes it to your phone, so two launches cannot be linked to the same person</li>
+        <li>No IP address (discarded on receipt), no precise location, no hardware or advertising identifiers</li>
+        <li>No screen recording and no automatic tracking of taps or screens</li>
+    </ul>
+    <p>You can turn usage statistics off at any time in Settings &rarr; Anonymous usage stats. When it is off nothing is sent. Because no identifier is stored, there is nothing on your phone to delete. Learn more at <a href="https://posthog.com/privacy">posthog.com/privacy</a>.</p>
+
     <h2>Where Your Data Is Stored</h2>
     <ul>
         <li>Your data is stored <strong>only on your device</strong>, in a local database inside the app</li>
         <li>The home screen widget reads a copy of today&rsquo;s habits from a storage area shared with the widget, also on your device</li>
         <li>Uninstalling the app removes all of it</li>
         <li>If you export a backup, a file is created and handed to the share sheet. Where it goes (Files, iCloud Drive, email) is your choice, and we never receive it</li>
+        <li>Anonymous usage statistics are stored by PostHog on servers in the European Union</li>
     </ul>
 
     <h2>Notifications</h2>
@@ -67,17 +89,19 @@
     <ul>
         <li><strong>RevenueCat</strong> (purchases) &mdash; manages Bounceback Pro and its free trial. Because there is no sign-up, RevenueCat assigns an anonymous app user ID to the install and receives your purchase history and basic device information. It never receives your habits or notes. <a href="https://www.revenuecat.com/privacy">Privacy policy</a></li>
         <li><strong>Apple App Store</strong> &mdash; processes the payment itself. We never see your payment details</li>
-        <li>We do not use advertising or analytics SDKs</li>
+        <li><strong>PostHog</strong> (usage statistics) &mdash; EU-hosted, anonymous, no stored identifier, can be switched off in Settings. <a href="https://posthog.com/privacy">Privacy policy</a></li>
+        <li>We do not use advertising SDKs</li>
         <li>We do not sell or share your data</li>
     </ul>
 
     <h2>Identifiers</h2>
-    <p>One identifier leaves the device: the anonymous app user ID RevenueCat assigns to the install so a purchase can be recognised. It is not tied to your name, email or hardware.</p>
+    <p>One identifier leaves the device: the anonymous app user ID RevenueCat assigns to the install so a purchase can be recognised. It is not tied to your name, email or hardware. Usage statistics carry no stored identifier at all.</p>
 
     <h2 id="data-deletion">Data Deletion</h2>
     <ul>
         <li><strong>Your habits, history, notes and settings:</strong> open Bounceback and go to Settings &rarr; Reset all data, or uninstall the app. Both remove everything from the device straight away. There is no copy on any server, so nothing is left behind.</li>
         <li><strong>Backups you exported:</strong> they are files you control; delete them wherever you saved them.</li>
+        <li><strong>Anonymous usage statistics:</strong> turn them off in Settings. Data already collected carries no identifier, so it cannot be traced to you or to your phone.</li>
         <li><strong>Purchases:</strong> held by Apple against your Apple ID, not by us. Removing them is done through Apple and would also remove what you paid for.</li>
     </ul>
 
@@ -85,7 +109,7 @@
     <p>Bounceback is not directed at children under 13. We do not knowingly collect data from anyone.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>If Bounceback ever starts collecting anything, for example anonymous usage statistics to see whether the app helps, this page will say exactly what, before the app version that does it is released. The &ldquo;Last updated&rdquo; date at the top will change.</p>
+    <p>If what the app sends ever changes, this page will say exactly what, before the app version that does it is released. The &ldquo;Last updated&rdquo; date at the top will change.</p>
 
     <hr>
 
