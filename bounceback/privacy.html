@@ -52,11 +52,11 @@
     <p>We use <strong>PostHog</strong>, hosted in the European Union, to count how the app is used in aggregate. This tells us whether people get through the first habit, whether they come back, and whether the upgrade screen appears at a sensible moment.</p>
     <p><strong>What is sent:</strong></p>
     <ul>
-        <li>App opened, and one &ldquo;active today&rdquo; event per day</li>
+        <li>App opened, and one &ldquo;active today&rdquo; event per day (with whether it is the first of that week)</li>
         <li>Onboarding finished</li>
-        <li>A habit was created (the number of habits, never the name)</li>
-        <li>A day was checked off (Full or Minimum, and whether it followed a miss)</li>
-        <li>The upgrade screen was shown, and a purchase was made (the plan, never the price you paid)</li>
+        <li>A habit was created (the number of habits and whether it was marked as already going, never the name)</li>
+        <li>A day was checked off (Full or Minimum, whether it was the first ever, whether it followed a miss and whether the streak survived)</li>
+        <li>The upgrade screen was shown (and from where in the app), and a purchase was made (the plan and whether it started a trial, never the price you paid)</li>
         <li>The rating prompt was requested, and a backup was exported</li>
         <li>With each event: the app version, the week the app was first opened (an ISO week such as 2026-W39, never a date), your phone&rsquo;s region setting (a country code, never a location) and the number of active habits</li>
     </ul>
