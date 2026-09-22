@@ -8,6 +8,7 @@ Privacy policies and terms of service for all Dot Systems apps, hosted via GitHu
 
 | App | Folder | Privacy | Terms |
 |-----|--------|---------|-------|
+| Bounceback | `bounceback/` | [Privacy](./bounceback/privacy.html) | [Terms](./bounceback/terms.html) |
 | Mulligan | `mulligan/` | [Privacy](./mulligan/privacy.md) | [Terms](./mulligan/terms.md) |
 | Bogey Blamer | `app-golfexcuse/` | [Privacy](./app-golfexcuse/privacy.md) | [Terms](./app-golfexcuse/terms.md) |
 | Slothy | `slothy/` | [Privacy](./slothy/privacy.md) | [Terms](./slothy/terms.md) |
@@ -16,6 +17,8 @@ Privacy policies and terms of service for all Dot Systems apps, hosted via GitHu
 ---
 
 ## Live URLs
+
+**Bounceback** : Privacy: https://dotsystemsdevs.github.io/app-legal-docs/bounceback/privacy.html · Terms: https://dotsystemsdevs.github.io/app-legal-docs/bounceback/terms.html · Support: https://dotsystemsdevs.github.io/app-legal-docs/bounceback/support.html
 
 **Mulligan** : Privacy: `https://dotsystemsdevs.github.io/app-legal-docs/mulligan/privacy.md` · Terms: `https://dotsystemsdevs.github.io/app-legal-docs/mulligan/terms.md`
 
